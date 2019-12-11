@@ -1,0 +1,148 @@
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main: #251EC3;
+    --main-light: #E9E9F9;
+    --secondary: #30DD9D;
+    --secondary-light: #EAFCF5;
+    --yellow: #FFCA5F;
+    --dark-blue: #273B55; 
+    --grey: #F4F5F6; 
+  }
+
+.bg-main {
+  background-color:var(--main); 
+}
+.bg-secondary {
+  background-color:var(--secondary); 
+}
+.bg-main-light {
+  background-color:var(--main-light); 
+}
+.bg-secondary-light {
+  background-color:var(--secondary-light); 
+}
+.bg-grey {
+  background-color:var(--grey); 
+}
+.bg-yellow {
+  background-color:var(--yellow); 
+}
+.bg-dark-blue {
+  background-color:var(--dark-blue); 
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+html {
+    box-sizing: border-box;   
+    color: #273B55;
+}
+
+body {
+    text-rendering: optimizeLegibility;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+.MuiButton-root {
+  color: #273B55;
+  padding: 6px 16px;
+  font-size: 0.875rem;
+  min-width: 64px;
+  box-sizing: border-box;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+  border-radius: 100em;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+}
+.MuiButton-containedPrimary {
+  color: #fff;
+  background-color: rgba(37, 30, 195, 1);
+}
+
+.MuiButton-containedSecondary {
+  color: #ffffff;
+  background-color: rgba(48, 221, 157, 1);
+}
+
+.MuiButton-outlinedSecondary {
+  color: rgba(48, 221, 157, 1);
+  border: 1px solid rgba(48, 221, 157, 0.5);
+}
+
+.MuiButton-Ghost {
+  background-color: var(--main-light);
+  color:var(--main);
+  box-shadow: none;
+}
+.MuiButton-Ghost:hover {
+  background-color: #BEBCED;
+  box-shadow: none;
+}
+
+.colour-swatch{
+  min-width: 200px;
+  min-height: 150px;
+  border-radius: 1em;
+  margin: 35px 0px;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.01562em;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.00833em;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.04;
+  letter-spacing: 0;
+}
+
+h4 {
+  font-size: 1.375rem;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 0.00735em;
+}
+
+h5 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.33;
+  letter-spacing: 0;
+}
+
+h6 {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.0075em;
+}
+
+p {
+  font-size: 0.875rem;
+}
