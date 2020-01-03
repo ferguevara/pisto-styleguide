@@ -14,6 +14,7 @@
     --yellow: #FFCA5F;
     --dark-blue: #273B55; 
     --grey: #F4F5F6; 
+    --white: #ffffff;
   }
 
 .bg-main {
@@ -38,11 +39,20 @@
   background-color:var(--dark-blue); 
 }
 
+.bg-white {
+  background-color:var(--white); 
+}
+
+.white {
+  color:var(--white); 
+}
+
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
 
 html {
     box-sizing: border-box;   
     color: #273B55;
+    background-color:var(--grey); 
 }
 
 body {
@@ -146,3 +156,13 @@ h6 {
 p {
   font-size: 0.875rem;
 }
+
+/* tabs */
+span.MuiTab-wrapper {
+  text-transform: capitalize;
+}
+.navBar {
+  min-height: 100px;
+  background: white;
+}
+
